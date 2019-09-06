@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+import static java.lang.Math.*;
+
+class TestCoding {
+  public static void main(String[ ] args) {
+    System.out.println("Singing in the Rain, what a wonderful feeling");
+    System.out.println("Hello World!");
+    // this is testing the printIn system to see how it works;
+    /*this is testing how to write a multi line comment
+    it seems to be working so far*/
+    
+    // assignment 1.1
+    System.out.println("welcome to java");
+    System.out.println("learning java now");
+    System.out.println("programming is fun");
+    
+    // assignment 1.2
+    System.out.println("i love java");
+    System.out.println("i love java");
+    System.out.println("i love java");
+    System.out.println("i love java");
+    System.out.println("i love java");
+    
+    // assignment 1.4
+    System.out.println("a     a^2     a^3     a^4");
+    System.out.println("1     1       1       1");
+    System.out.println("2     4       8       16");
+    System.out.println("3     9       27      81");
+    System.out.println("4     16      64      256");
+    
+    // assignment 1.5
+    System.out.print("(7.5 * 6.5 - 4.5 * 3) / (47.5 - 5.5) = ");
+    System.out.println((7.5 * 6.5 - 4.5 * 3) / (47.5 - 5.5));
+    
+    // assignment 1.6
+    System.out.print("1+2+3+4+5+6+7+8+9+10 = ");
+    System.out.println((1+2+3+4+5+6+7+8+9+10));
+    
+    // assignment 1.7
+    System.out.println("PI = " + PI);
+    System.out.print("PI = 4 * (1 . 0 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11");
+    System.out.println("π = 4 * (1.0 - 1:3 + 1:5 - 1:7 + 1:9 - 1:11");
+    System.out.println(4 * (1.0 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11));
+    
+    // assignment  1.12
+    System.out.println("1.6 * 24 = ");
+    System.out.print(1.6 * 24);
+
+    // Scanner test
+    Scanner s = new Scanner(System.in);
+    System.out.println("skriv dit input: ");
+    String input = s.next();
+    System.out.println("du har skrevet " + input);
